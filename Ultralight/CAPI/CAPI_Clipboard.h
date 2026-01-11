@@ -1,5 +1,5 @@
 /**************************************************************************************************
- *  This file is a part of Ultralight.                                                            *
+ *  This file is a part of Ultralight, an ultra-portable web-browser engine.                      *
  *                                                                                                *
  *  See <https://ultralig.ht> for licensing and more.                                             *
  *                                                                                                *

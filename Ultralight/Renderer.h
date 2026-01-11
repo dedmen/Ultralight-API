@@ -1,5 +1,5 @@
 /**************************************************************************************************
- *  This file is a part of Ultralight.                                                            *
+ *  This file is a part of Ultralight, an ultra-portable web-browser engine.                      *
  *                                                                                                *
  *  See <https://ultralig.ht> for licensing and more.                                             *
  *                                                                                                *
@@ -235,6 +235,8 @@ class UExport Renderer : public RefCounted {
 
   ///
   /// Start the remote inspector server.
+  /// 
+  /// @pre This feature is only available in Ultralight Pro edition and above.
   /// 
   /// While the remote inspector is active, Views that are loaded into this renderer
   /// will be able to be remotely inspected from another Ultralight instance either locally
